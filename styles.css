@@ -102,7 +102,9 @@ footer{
     margin-top: 40px;
 }
 
-.decoration{
+.decorations{
     position: absolute;
+    top: 0%;
+    right: 0%;
     
 }
