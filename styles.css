@@ -127,6 +127,9 @@ footer{
 
     .container{
         width: 100%;
+        position: relative;
+        top: unset;
+        
     }
 
     .title1,.title2{
