@@ -104,7 +104,8 @@ footer{
 
 .decorations{
     position: absolute;
-    top: 0%;
+    top: 90%;
     right: 0%;
+    z-index: 2;
     
 }
