@@ -31,13 +31,12 @@ body {
     top: 25%;
     width: 50%;
     background-color: #121725;
-    padding: 4%;
+    padding: 4% 0% 4% 4%;
 }
 
 .title1,.title2{
-    font-size:56px;    
+    font-size:50px;    
     line-height: 62px;
-    /*font-variant-caps: all-petite-caps;*/
     margin: 0px;
 }
 
@@ -59,12 +58,14 @@ body {
     font-family: Chivo;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
 }
 
 form {
     position: relative;
+    margin-top: 40px;
 }
 
 input[type="text"]{
@@ -80,7 +81,7 @@ input[type="text"]{
 }
 
 input[type="button"]{
-    padding: 14px;
+    padding: 17px;
     border:0;
     background-color:#54E6AF;
     border-radius: 40px;
@@ -91,7 +92,7 @@ input[type="button"]{
     right: 0%;
     width: 40%;
     font-weight: 900;
-    border: 6px solid #2C344B;
+    border: 3px solid #2C344B;
 }
 
 footer{
@@ -99,8 +100,4 @@ footer{
     flex-flow:wrap;
     justify-content: space-around;
     margin-top: 40px;
-}
-
-footer img{
-    height: auto;
 }
