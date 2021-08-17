@@ -56,7 +56,11 @@ body {
 
 .pitch{
     color:#C2CBE5;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
     font-size: 18px;
+    line-height: 28px;
 }
 
 form {
@@ -67,7 +71,7 @@ input[type="text"]{
     padding: 20px;
     border:0;
     background-color:#2C344B;
-    border-radius: 20px;
+    border-radius: 40px;
     font-family: inherit;
     font-weight: inherit;
     width: 90%;
@@ -75,15 +79,15 @@ input[type="text"]{
 }
 
 input[type="button"]{
-    padding: 20px;
+    padding: 19px;
     border:0;
     background-color:#54E6AF;
-    border-radius: 20px;
+    border-radius: 40px;
     font-family: inherit;
     font-weight: inherit;
     position: absolute;
     top: 0%;
-    right: 10%;
+    right: 0%;
 }
 
 .footer{
