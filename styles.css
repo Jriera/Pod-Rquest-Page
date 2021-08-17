@@ -35,9 +35,9 @@ body {
 }
 
 .title1,.title2{
-    font-size: 52px;    
+    font-size:0.04%;    
     line-height: 62px;
-    font-variant-caps: all-petite-caps;
+    /*font-variant-caps: all-petite-caps;*/
     margin: 0px;
 }
 
@@ -80,7 +80,7 @@ input[type="text"]{
 }
 
 input[type="button"]{
-    padding: 18px;
+    padding: 20px;
     border:0;
     background-color:#54E6AF;
     border-radius: 40px;
@@ -91,6 +91,7 @@ input[type="button"]{
     right: 0%;
     width: 40%;
     font-weight: 900;
+    border: 2px solid #2C344B;
 }
 
 .footer{
