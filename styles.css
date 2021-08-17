@@ -15,6 +15,7 @@ body {
     font-weight: 900;
     position: absolute;
     top: 0%;
+    left: 4%;
 }
 
 .host{
@@ -49,28 +50,40 @@ body {
     
 }
 
+.wrapper{
+    width: 70%;
+}
+
 .pitch{
     color:#C2CBE5;
     font-size: 18px;
 }
 
+form {
+    position: relative;
+}
+
 input[type="text"]{
-    padding: 10px;
+    padding: 20px;
     border:0;
     background-color:#2C344B;
     border-radius: 20px;
     font-family: inherit;
     font-weight: inherit;
+    width: 90%;
     
 }
 
 input[type="button"]{
-    padding: 10px;
+    padding: 20px;
     border:0;
     background-color:#54E6AF;
     border-radius: 20px;
     font-family: inherit;
     font-weight: inherit;
+    position: absolute;
+    top: 0%;
+    right: 10%;
 }
 
 .footer{
