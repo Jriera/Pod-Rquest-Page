@@ -123,17 +123,29 @@ footer{
         position: absolute;
         top: 0%;
         left:50%;
+        margin-left: -68px;
+        margin-top: 10%;
     }
 
     .container{
         width: 100%;
         position: relative;
         top: unset;
+        margin-top: 25%;
 
+    }
+
+    .wrapper{
+        width: 97%;
+    }
+
+    .pitch{
+        text-align: center;
     }
 
     .title1,.title2{
         font-size: 22px;
         line-height: 36px;
+        text-align: center;
     }
 }
