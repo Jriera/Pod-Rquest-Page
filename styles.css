@@ -12,3 +12,22 @@ html{
     font-family: "chivo";
     font-weight: 300;
 }
+
+.title1,.title2{
+    font-size: 52px;    
+    line-height: 62px;
+    font-variant-caps: all-petite-caps;
+}
+
+.title1{
+    color: #54E6AF;
+}
+
+.title2{
+    color: #FFFFFF;
+}
+
+.pitch{
+    color:#C2CBE5;
+    font-size: 18px;
+}
