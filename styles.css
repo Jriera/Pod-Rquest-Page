@@ -129,11 +129,11 @@ footer{
         width: 100%;
         position: relative;
         top: unset;
-        
+
     }
 
     .title1,.title2{
         font-size: 22px;
-        line-height: 36;
+        line-height: 36px;
     }
 }
