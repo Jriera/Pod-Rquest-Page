@@ -25,9 +25,35 @@ html{
 
 .title2{
     color: #FFFFFF;
+    margin: 0px;
 }
 
 .pitch{
     color:#C2CBE5;
     font-size: 18px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border:0;
+    background-color:#2C344B;
+    border-radius: 20px;
+    font-family: inherit;
+    font-weight: inherit;
+    
+}
+
+input[type="button"]{
+    padding: 10px;
+    border:0;
+    background-color:#54E6AF;
+    border-radius: 20px;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
