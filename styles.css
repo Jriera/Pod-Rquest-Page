@@ -75,11 +75,12 @@ input[type="text"]{
     font-family: inherit;
     font-weight: inherit;
     width: 90%;
+    font-weight: 900;
     
 }
 
 input[type="button"]{
-    padding: 19px;
+    padding: 18px;
     border:0;
     background-color:#54E6AF;
     border-radius: 40px;
@@ -88,6 +89,8 @@ input[type="button"]{
     position: absolute;
     top: 0%;
     right: 0%;
+    width: 40%;
+    font-weight: 900;
 }
 
 .footer{
