@@ -2,21 +2,42 @@ html{
     background-color: #121725;
 }
 
+body {
+    padding:100px 0px 100px 100px;
+    
+}
 
+.main{
+    position: relative;
+}
 .logo {
     font-family: "chivo";
     font-weight: 900;
+    position: absolute;
+    top: 0%;
+}
+
+.host{
+    position: relative;
+    left: 50%;
+    margin-left: -244px;
 }
 
 .container {
     font-family: "chivo";
     font-weight: 300;
+    position: absolute;
+    top: 25%;
+    width: 50%;
+    background-color: #121725;
+    padding: 4%;
 }
 
 .title1,.title2{
     font-size: 52px;    
     line-height: 62px;
     font-variant-caps: all-petite-caps;
+    margin: 0px;
 }
 
 .title1{
@@ -25,7 +46,7 @@ html{
 
 .title2{
     color: #FFFFFF;
-    margin: 0px;
+    
 }
 
 .pitch{
