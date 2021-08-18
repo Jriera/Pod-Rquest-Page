@@ -25,9 +25,9 @@
         Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
         <form name="subscription">
           <input type="text" id="email" name="email" placeholder="Email Address">
-          <input type="button" class="btn" value="Request access">
+          <input type="button" id="btn" value="Request access">
         </form>
-        <p class="error"></p>
+        <p id="error"></p>
         <!--</div>-->
         <footer>
           <img src="./assets/desktop/spotify.svg" alt="spotify logo">
@@ -46,8 +46,8 @@
   
 </body>
 <script >
-  document.getElementsByClassName("btn").addEventListener("click",function (){
-    document.getElementsByClassName("error").innerHTML="Oops! Please add your email";
+  document.getElementById("btn").addEventListener("click",function (){
+    document.getElementById("error").innerHTML="Oops! Please add your email";
     
 });
 </script>
