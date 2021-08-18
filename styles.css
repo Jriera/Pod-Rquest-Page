@@ -97,6 +97,13 @@ input[type="button"]{
     border: 3px solid #2C344B;
 }
 
+#error{
+    font-family: inherit;
+    font-weight: 900;
+    color: red;
+    font-size: 12px;
+}
+
 footer{
     display: flex;
     flex-flow:wrap;

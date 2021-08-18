@@ -47,7 +47,11 @@
 </body>
 <script >
   document.getElementById("btn").addEventListener("click",function (){
-    document.getElementById("error").innerHTML="Oops! Please add your email";
+    let x = document.forms["subscription"]["email"].value;
+    if(x === ""){
+      document.getElementById("error").innerHTML="Oops! Please add your email";
+    }
+    
     
 });
 </script>
