@@ -51,6 +51,9 @@
     if(x === ""){
       document.getElementById("error").innerHTML="Oops! Please add your email";
     }
+    else if(x.indexOf("@")===-1){
+      document.getElementById("error").innerHTML="Oops! Please check your email";
+    }
     
     
 });
