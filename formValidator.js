@@ -1,4 +1,4 @@
-document.getElementsByClassName("bt").addEventListener("click",function (){
+document.getElementsByClassName("btn").addEventListener("click",function (){
     let x = document.forms["subscription"]["email"].value;
     let messenger = document.getElementsByClassName("error");
     if(x===""){
