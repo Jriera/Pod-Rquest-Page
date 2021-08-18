@@ -152,7 +152,7 @@ footer{
 
     form{
         order: 3;
-        position: absolute;
+       
     }
 
     input[type="text"]{
@@ -163,7 +163,7 @@ footer{
     input[type="button"]{
         top:auto;
         right: auto;
-        width: 90%;
+        width: 132%;
     }
 
     footer{
